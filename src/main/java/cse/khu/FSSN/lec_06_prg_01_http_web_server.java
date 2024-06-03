@@ -39,7 +39,7 @@ public class lec_06_prg_01_http_web_server {
             System.out.println("::Client address   : " + exchange.getRemoteAddress().getAddress());
             System.out.println("::Client port      : " + exchange.getRemoteAddress().getPort());
             System.out.println("::Request command  : " + exchange.getRequestMethod());
-            System.out.println("::Request URI      : " + exchange.getRequestURI());
+            System.out.println("::Request path      : " + exchange.getRequestURI());
             System.out.println("::Request headers  : " + exchange.getRequestHeaders());
         }
 
